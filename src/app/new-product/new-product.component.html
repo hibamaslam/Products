@@ -1,7 +1,7 @@
 <div class="card">
     <form (ngSubmit) = "AddProduct()">
-        <div class="card-header">
-            {{title}}
+        <div class="card-header text-center">
+           <h3>{{title}}</h3> 
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -41,7 +41,7 @@
                          </tr>
                          <tr>
                              <td></td>
-                             <td><input type="submit" value="Submit" /></td>
+                             <td><button class="btn btn-primary"type="submit" value="Submit" >Submit</button></td>
                          </tr>
                     </tbody>
                 </table>
